@@ -2,6 +2,8 @@ header {
   color: white;
   display: flex;
   padding: 12px;
+  justify-content: center;
+  align-items: center;
 }
 .logoimg {
   max-width: 35px;
@@ -25,6 +27,8 @@ a {
   display: flex;
   padding: 40px;
   background-color: white;
+  align-items: center;
+  justify-content: center;
 }
 .herotext {
   color: #88ab75;
@@ -79,20 +83,31 @@ button:active {
   transform: translateY(0);
 }
 
-.landscapeimage {
-  max-width: 300px;
-  margin: 20px;
-  /* border: 4px solid white; */
+.landscapeImage {
+  max-width: 500px;
+  margin-left: 60px;
+  border-radius: 5px;
 }
-.cardsection {
+.cards {
   display: flex;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 40px;
 }
 .cardtitle {
   text-align: center;
 }
 .squares {
-  max-width: 200px;
+  margin-bottom: 50px;
+  max-width: 300px;
   border-radius: 10px;
+}
+
+.imagesCaptions {
+  display: flex;
+  align-items: center;
 }
 
 .quotesection {
